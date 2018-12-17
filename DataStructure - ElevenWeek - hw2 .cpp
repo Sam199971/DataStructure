@@ -215,6 +215,9 @@ Node* Creat(int k, int n, Node* root, Node* tmp,int ID[]){
 
 
 int main(){
+	
+	printf("Hello World\n\n");
+	
 	srand(time(NULL));
 	Node* root,*tmp;
 	int ID[25] = {0};
@@ -280,6 +283,9 @@ int main(){
 	
 	
 	WantSearch2(root,ID);
+	
+	
+	
 	
 	return 0;
 }
